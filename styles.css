@@ -1,0 +1,121 @@
+/* index.html part */
+body.starter-page{
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+
+.starter-page h1 {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: aqua;
+    text-align: center;
+}
+.start-one{
+    display: block;
+    background-color: aquamarine;
+    padding: 10px 25px;
+
+}
+.starter-page li {
+    display: inline-block;
+    background-color: white;
+    padding: 8px 16px;
+}
+/* shoyu chicken page */
+body.shoyu-chicken{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    background-color: pink;
+}
+.shoyu-chicken .home{
+    display: inline-block;
+    background-color: rgb(91, 134, 63);
+    padding: 8px 16px;
+}
+.shoyu-chicken h1{
+    text-align: center;
+}
+.shoyu-chicken .img{
+    text-align: center;
+}
+.shoyu-chicken .inliner {
+    background-color: rgb(234, 201, 207);
+    padding: 2px 2px;
+}
+.shoyu-chicken .other-pages li:nth-child(1) {
+    display:block;
+    width: fit-content;
+      padding: 2px 8px;
+      margin-bottom: 5px;
+    background-color: bisque;
+}
+.shoyu-chicken .other-pages li:nth-child(2) {
+    display: block;
+    width: fit-content;
+     padding: 2px 8px;
+    background-color: chocolate;
+}
+body.greek-p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    background-color: rgb(197, 255, 192);
+}
+.greek-p .home{
+    display: block;
+    background-color: rgb(226, 95, 29);
+    width: fit-content;
+    padding: 2px 8px;
+}
+.greek-p .starter {
+    text-align: center;
+}
+.greek-p .other-pages li:nth-child(1) {
+    display: block;
+    width: fit-content;
+    padding: 2px 8px;
+    margin-bottom: 5px;
+    background-color: rgb(207, 184, 150);
+}
+.greek-p .other-pages li:nth-child(2) {
+    display: block;
+    padding: 2px 8px;
+    background-color: chocolate;
+    width: fit-content;
+}
+body.german-choc {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    background-color: rgb(90, 188, 210);
+}
+.german-choc .home {
+    background-color: blueviolet;
+    width: fit-content;
+    padding: 2px 8px;
+}
+.german-choc .starter {
+    text-align: center;
+}
+
+.german-choc .other-pages li:nth-child(1) {
+    background-color: aquamarine;
+    width: fit-content;
+    padding: 2px 8px;
+    margin-bottom: 5px;
+}
+.german-choc .other-pages li:nth-child(2) {
+    background-color: rgb(30, 210, 120);
+    width: fit-content;
+    padding: 2px 8px;
+}
+.german-choc span {
+    display: inline;
+    background-color: chocolate;
+    padding: 2px 8px;
+}
